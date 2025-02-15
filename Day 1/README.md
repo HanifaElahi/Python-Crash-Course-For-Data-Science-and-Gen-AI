@@ -97,7 +97,7 @@ This ensures consistency across different development environments.
 
 ### Python Project Packaging
 
-#### 1. setup.py
+#### 1. Using `setup.py`
 
 A `setup.py` file is used to define how a Python project is packaged and distributed. It includes metadata like the package name, version, author, and dependencies.
 
@@ -110,7 +110,7 @@ The __init__.py file makes a directory (e.g., src/) a Python package. It can be 
 The -e . line in a requirements.txt file is used to trigger and execute the setup.py file in the current directory.
 
 
-#### 2. pyproject.toml
+#### 2. Using `pyproject.toml`
 
 `pyproject.toml` is a modern standard for packaging Python projects. It specifies the build system requirements and project dependencies in a more readable and standardized format. Much more efficient than setup.py
 
