@@ -48,7 +48,7 @@ This approach prevents version conflicts and allows you to work on each project 
    python3.12 -m venv venv
    source venv/bin/activate
    ```
-venv
+
 2. **Using Conda:**
 
    - Create an environment with a specific name:
@@ -70,7 +70,7 @@ venv
      conda create -n venv python==3.12
      ```
 
-    This command creates a new environment named "venv" with Python version 3.12. By default, the environment and its packages will be installed in the directory where Anaconda is set up.
+    This command creates a new environment named "venv" with Python version 3.12. By default, the environment and its packages will be          installed in the directory where Anaconda is set up.
 
 ## Python Packages
 
