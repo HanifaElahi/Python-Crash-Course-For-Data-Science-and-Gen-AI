@@ -66,7 +66,7 @@ venv
 
      This will create the environment in the current working directory. The `-p` flag specifies the present working directory.
 
-    ```bash
+     ```bash
      conda create -n venv python==3.12
      ```
 
@@ -74,16 +74,18 @@ venv
 
 ## Python Packages
 
+### Installing Python Packages
+
 There are multiple ways to install packages in Python:
 
-### 1. Using `pip install`
+#### 1. Using `pip install`
 You can install packages individually with the following command:
 
 ```bash
 pip install package_name
 ```
 
-### 2. Using `requirements.txt` (Industry Standard)
+#### 2. Using `requirements.txt` (Industry Standard)
 This is the preferred approach in professional environments, as it allows developers to see all the required packages and their versions in one place. You can install packages from a `requirements.txt` file with:
 
 ```bash
@@ -93,8 +95,9 @@ pip install -r requirements.txt
 `-r` is more like read mode.
 This ensures consistency across different development environments.
 
+### Python Project Packaging
 
-### setup.py
+#### 1. setup.py
 
 A `setup.py` file is used to define how a Python project is packaged and distributed. It includes metadata like the package name, version, author, and dependencies.
 
@@ -107,7 +110,7 @@ The __init__.py file makes a directory (e.g., src/) a Python package. It can be 
 The -e . line in a requirements.txt file is used to trigger and execute the setup.py file in the current directory.
 
 
-### pyproject.toml
+#### 2. pyproject.toml
 
 `pyproject.toml` is a modern standard for packaging Python projects. It specifies the build system requirements and project dependencies in a more readable and standardized format. Much more efficient than setup.py
 
