@@ -4,7 +4,9 @@
 
 - ### Day 1 : [Python Environment Setup, Industry Project Configuration And Package Management](https://github.com/HanifaElahi/Python-Crash-Course-For-Data-Science-and-Gen-AI/tree/main/Day%201)
 
---- 
+- ### Day 2 : [ML Project Skeleton]()
+
+---
 
 Course Details :
 
